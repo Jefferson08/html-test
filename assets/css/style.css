@@ -352,7 +352,7 @@ header {
 .latest_news_text .divider{
     width: 35px;
     height: 4px;
-    background-color: #133d6e;
+    background-color: #fb7a67;
     margin-right: 10px;
 }
 
@@ -413,7 +413,102 @@ header {
     color: #133d6e;
 }
 
+#know_our_city{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #e2f0f9;
+}
 
+.know_our_city_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.know_our_city_card{
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.know_our_city_card_body h1{
+    color: #133d6e;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.know_our_city_card_body a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #133d6e;
+}
+
+.know_our_city_card_body ul li {
+	list-style: none;
+	background-image: url("../icons/right-arrow-2.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.know_our_city_card_body{
+    padding: 20px;
+}
+
+.know_our_city_card_footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 120px;
+    background-color: #fb7a67;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.know_our_city_card_footer .vertical_divider{
+    height: 80px;
+}
+
+.know_our_city_card_footer .title{
+    max-width: 30%;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.know_our_city_card_footer .address {
+    display: flex;
+    flex-direction: column;
+}
+
+.know_our_city_card_footer .address h1{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.know_our_city_card_footer .address p{
+    color: white;
+    margin: 10px 0 10px 0;
+    font-size: 10px;
+}
+.know_our_city_image img{
+    max-height: 562px;
+}
 
 
 
