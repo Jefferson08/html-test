@@ -176,7 +176,7 @@ header {
 
 .banner_text_content h1{
     font-size: 60px;
-    width: 400px;
+    padding-right: 15px;
     font-weight: bold;
     margin-top: 60px;
     margin-bottom: 30px;
