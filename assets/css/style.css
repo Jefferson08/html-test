@@ -665,6 +665,16 @@ header {
     background-color: #f8a674;
 }
 
+@media(max-width: 500px){
+    .know_our_city_card_footer .title{
+        font-size: 12px;
+    }
+
+    .know_our_city_card_footer .address h1{
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 1080px){
 
     .container{
